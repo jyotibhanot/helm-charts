@@ -6,11 +6,6 @@ metadata:
   labels:
     {{- include "aws-ebs-csi-driver.labels" . | nindent 4 }}
 rules:
-  # The following rule should be uncommented for plugins that require secrets
-  # for provisioning.
-  # - apiGroups: [""]
-  #   resources: ["secrets"]
-  #   verbs: ["get", "list", "watch"]
   - apiGroups: [ "" ]
     resources: [ "persistentvolumes" ]
     verbs: [ "get", "list", "watch", "update", "patch" ]
