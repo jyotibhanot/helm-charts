@@ -1,0 +1,72 @@
+apiVersion: v1
+entries:
+  aws-ebs-csi-driver:
+  - apiVersion: v2
+    appVersion: 1.31.0
+    created: "2024-06-11T08:37:36.462996641Z"
+    description: A Helm chart for AWS EBS CSI Driver
+    digest: d72ef88ba25d5a3f15fa59a407b2260ba99707db3c57023b6ce0755959f76a9d
+    home: https://github.com/kubernetes-sigs/aws-ebs-csi-driver
+    keywords:
+    - aws
+    - ebs
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - name: ndegwajohn
+      url: https://github.com/ndegwajohn
+    name: aws-ebs-csi-driver
+    sources:
+    - https://github.com/kubernetes-sigs/aws-ebs-csi-driver
+    urls:
+    - https://github.com/jyotibhanot/helm-charts/releases/download/aws-ebs-csi-driver-2.31.0/aws-ebs-csi-driver-2.31.0.tgz
+    version: 2.31.0
+  aws-load-balancer-controller:
+  - apiVersion: v2
+    appVersion: v2.8.1
+    created: "2024-06-11T08:37:36.579280204Z"
+    description: AWS Load Balancer Controller Helm chart for Kubernetes
+    digest: 996bb3b531481e1e4df473c548cfc1a8149bc4585919e9d76a63fb9bdbf95cc5
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - alb
+    - load balancer
+    - ingress
+    - nlb
+    maintainers:
+    - email: kishorj@users.noreply.github.com
+      name: kishorj
+      url: https://github.com/kishorj
+    - email: m00nf1sh@users.noreply.github.com
+      name: m00nf1sh
+      url: https://github.com/m00nf1sh
+    name: aws-load-balancer-controller
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://github.com/jyotibhanot/helm-charts/releases/download/aws-load-balancer-controller-1.8.1/aws-load-balancer-controller-1.8.1.tgz
+    version: 1.8.1
+  external-secrets:
+  - apiVersion: v2
+    appVersion: v0.9.19
+    created: "2024-06-11T08:37:37.23081385Z"
+    description: External secret management for Kubernetes
+    digest: ed2e54b0d66f19f7804cde21c6c18d09ef1fa59b5e3d8b5c29ec589106064c9d
+    home: https://github.com/external-secrets/external-secrets
+    icon: https://raw.githubusercontent.com/external-secrets/external-secrets/main/assets/eso-logo-large.png
+    keywords:
+    - kubernetes-external-secrets
+    - secrets
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: kellinmcavoy@gmail.com
+      name: mcavoyk
+    name: external-secrets
+    type: application
+    urls:
+    - https://github.com/jyotibhanot/helm-charts/releases/download/external-secrets-0.9.19/external-secrets-0.9.19.tgz
+    version: 0.9.20
+
+
