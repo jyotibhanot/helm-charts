@@ -2,8 +2,10 @@ name: Chart Validation
 
 on:
   push:
-    paths:
-      - 'stable/**'
+    branches:
+      - 'feat/**'
+    #paths:
+      #- 'stable/**'
 
 jobs:
   charts-validation:
