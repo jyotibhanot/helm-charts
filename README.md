@@ -5,7 +5,7 @@ Charts are curated application definitions for [Helm](https://github.com/helm/he
 
 ## Repository Structure
 
-This repository contains the source for the packaged and versioned charts (released in the [Github Pages](https://github.com/jyotibhanot/helm-charts/)).
+This repository contains the source for the packaged and versioned charts (released in the [Github Pages](https://github.com/jyotibhanot/helm-charts/releases)).
 The Charts in the `stable/` directory in the main branch match the latest packaged Chart in the [Chart Repository](https://github.com/jyotibhanot/helm-charts/).
 
 The purpose of this repository is to provide a place for maintaining and contributing Helm Charts, with CI processes in place for managing the releasing of Charts into the Chart Repository.
