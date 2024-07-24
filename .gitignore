@@ -1,0 +1,22 @@
+# Binaries for programs and plugins
+pkg/*
+*.pyc
+bin/*
+.project
+/.bin
+
+# vim
+*.swp
+
+# IntelliJ
+.idea/
+*.iml
+
+# MacOS system files
+*.DS_Store
+
+# Vscode files
+.vscode
+
+*.tgz
+.history
